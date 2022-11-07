@@ -13,6 +13,7 @@ This is a project for 5 days weather forecast. Input the city name in the search
 ![screenshot-assi-6](Assi6-Screenshot.PNG)
 
 ## Website Link
-
+https://timo9939.github.io/assignment6/
 
 ## Repository Link
+https://github.com/timo9939/assignment6
