@@ -101,11 +101,11 @@ function fetchData(cityName) {
             console.log("icon1: " + icon1)
             document.getElementById('img1').src = ('http://openweathermap.org/img/wn/' + icon1 + '.png')
 
-            day1Temp.textContent = Math.round(data.main.temp - 273.15);
+            day1Temp.textContent = Math.round(data.main.temp - 273.15)+'°C';
             console.log("Day1 Temperature: " + Math.round(data.main.temp - 273.15));
 
            
-            day1Wind.textContent=data.wind.speed
+            day1Wind.textContent=(data.wind.speed+' mph')
             console.log("Day1 Wind: " + data.wind.speed);
 
            
@@ -136,10 +136,10 @@ function fetchData(cityName) {
                 console.log("icon2: " + icon2)
                 document.getElementById('img2').src = ('http://openweathermap.org/img/wn/' + icon2 + '.png')
     
-                day2Temp.textContent = Math.round(data2.list[7].main.temp - 273.15);
+                day2Temp.textContent = Math.round(data2.list[7].main.temp - 273.15)+'°C';
                 console.log("Day2 Temperature: " + Math.round(data2.list[7].main.temp- 273.15));
     
-                day2Wind.textContent=data2.list[7].wind.speed
+                day2Wind.textContent=(data2.list[7].wind.speed)+" mph"
                 console.log("Day2 Wind: " );
     
                 day2Humid.textContent = (data2.list[7].main.humidity + '%')
@@ -153,10 +153,10 @@ function fetchData(cityName) {
                 console.log("icon3: " + icon3)
                 document.getElementById('img3').src = ('http://openweathermap.org/img/wn/' + icon3 + '.png')
     
-                day3Temp.textContent = Math.round(data2.list[15].main.temp - 273.15);
+                day3Temp.textContent = Math.round(data2.list[15].main.temp - 273.15)+'°C';
                 console.log("Day3 Temperature: " + Math.round(data2.list[15].main.temp- 273.15));
     
-                day3Wind.textContent=data2.list[15].wind.speed
+                day3Wind.textContent=(data2.list[15].wind.speed)+" mph"
                 
                 day3Humid.textContent = (data2.list[15].main.humidity + '%')
 
@@ -168,10 +168,10 @@ function fetchData(cityName) {
                 console.log("icon4: " + icon4)
                 document.getElementById('img4').src = ('http://openweathermap.org/img/wn/' + icon4 + '.png')
     
-                day4Temp.textContent = Math.round(data2.list[23].main.temp - 273.15);
+                day4Temp.textContent = Math.round(data2.list[23].main.temp - 273.15)+'°C';
                 console.log("Day4 Temperature: " + Math.round(data2.list[23].main.temp- 273.15));
     
-                day4Wind.textContent=data2.list[23].wind.speed
+                day4Wind.textContent=(data2.list[23].wind.speed)+" mph"
                 
                 day4Humid.textContent = (data2.list[23].main.humidity + '%')
 
@@ -183,10 +183,10 @@ function fetchData(cityName) {
                 console.log("icon5: " + icon5)
                 document.getElementById('img5').src = ('http://openweathermap.org/img/wn/' + icon5 + '.png')
     
-                day5Temp.textContent = Math.round(data2.list[31].main.temp - 273.15);
+                day5Temp.textContent = Math.round(data2.list[31].main.temp - 273.15)+'°C';
                 console.log("Day5 Temperature: " + Math.round(data2.list[31].main.temp- 273.15));
     
-                day5Wind.textContent=data2.list[31].wind.speed
+                day5Wind.textContent=(data2.list[31].wind.speed)+" mph"
                 console.log("Day 5 wind: "+data2.list[31].wind.speed)
 
                 day5Humid.textContent = (data2.list[31].main.humidity + '%')
@@ -200,10 +200,10 @@ function fetchData(cityName) {
                 console.log("icon6: " + icon6)
                 document.getElementById('img6').src = ('http://openweathermap.org/img/wn/' + icon6 + '.png')
     
-                day6Temp.textContent = Math.round(data2.list[39].main.temp - 273.15);
+                day6Temp.textContent = Math.round(data2.list[39].main.temp - 273.15)+'°C';
                 console.log("Day6 Temperature: " + Math.round(data2.list[39].main.temp- 273.15));
     
-                day6Wind.textContent=data2.list[39].wind.speed
+                day6Wind.textContent=(data2.list[39].wind.speed)+" mph"
                 
                 day6Humid.textContent = (data2.list[39].main.humidity + '%')
                  
